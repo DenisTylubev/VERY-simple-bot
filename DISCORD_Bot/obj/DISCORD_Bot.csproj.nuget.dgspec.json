@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "Q:\\DISCORD_Bot\\DISCORD_Bot\\DISCORD_Bot.csproj": {}
+  },
+  "projects": {
+    "Q:\\DISCORD_Bot\\DISCORD_Bot\\DISCORD_Bot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "Q:\\DISCORD_Bot\\DISCORD_Bot\\DISCORD_Bot.csproj",
+        "projectName": "DISCORD_Bot",
+        "projectPath": "Q:\\DISCORD_Bot\\DISCORD_Bot\\DISCORD_Bot.csproj",
+        "packagesPath": "C:\\Users\\RJEK\\.nuget\\packages\\",
+        "outputPath": "Q:\\DISCORD_Bot\\DISCORD_Bot\\obj\\",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Discord.Net": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
